@@ -13,7 +13,6 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		4B6969060EF88BE9005376DB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6969050EF88BE9005376DB /* OpenGLES.framework */; };
 		4B69690A0EF88BF0005376DB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6969090EF88BF0005376DB /* QuartzCore.framework */; };
-		4B83596E0F43E3320082C305 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B83596C0F43E3320082C305 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */; };
 		4B8359D00F43E36B0082C305 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8359710F43E36A0082C305 /* Action.m */; };
 		4B8359D10F43E36B0082C305 /* AtlasNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8359730F43E36A0082C305 /* AtlasNode.m */; };
 		4B8359D20F43E36B0082C305 /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8359750F43E36A0082C305 /* Camera.m */; };
@@ -62,19 +61,18 @@
 		4B8359FD0F43E36B0082C305 /* cpSpaceHash.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B8359CB0F43E36B0082C305 /* cpSpaceHash.c */; };
 		4B8359FE0F43E36B0082C305 /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B8359CD0F43E36B0082C305 /* cpVect.c */; };
 		4B835A090F43E3A90082C305 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B835A080F43E3A90082C305 /* fps_images.png */; };
+		4B85D0D40F44111F00D72A51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B85D0D20F44111F00D72A51 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ___PROJECTNAMEASIDENTIFIER___AppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ___PROJECTNAMEASIDENTIFIER___AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* ___PROJECTNAMEASIDENTIFIER___.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ___PROJECTNAMEASIDENTIFIER___.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3623240D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___PROJECTNAMEASIDENTIFIER___AppDelegate.h"; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "___PROJECTNAMEASIDENTIFIER___AppDelegate.m"; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ___PROJECTNAME___.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "___PROJECTNAME___.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4B6969050EF88BE9005376DB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		4B6969090EF88BF0005376DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		4B83596C0F43E3320082C305 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ___PROJECTNAMEASIDENTIFIER___AppDelegate.m; path = Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.m; sourceTree = "<group>"; };
-		4B83596D0F43E3320082C305 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ___PROJECTNAMEASIDENTIFIER___AppDelegate.h; path = Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.h; sourceTree = "<group>"; };
 		4B8359700F43E36A0082C305 /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
 		4B8359710F43E36A0082C305 /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
 		4B8359720F43E36A0082C305 /* AtlasNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtlasNode.h; sourceTree = "<group>"; };
@@ -169,6 +167,8 @@
 		4B8359CE0F43E36B0082C305 /* cpVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpVect.h; sourceTree = "<group>"; };
 		4B8359CF0F43E36B0082C305 /* prime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prime.h; sourceTree = "<group>"; };
 		4B835A080F43E3A90082C305 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = Resources/fps_images.png; sourceTree = "<group>"; };
+		4B85D0D20F44111F00D72A51 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Cocos2D-Based Application/Other Sources/main.m"; sourceTree = DEVELOPER_DIR; };
+		4B85D0D30F44111F00D72A51 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "___PROJECTNAMEASIDENTIFIER____Prefix.pch"; path = "Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Cocos2D-Based Application/Other Sources/___PROJECTNAMEASIDENTIFIER____Prefix.pch"; sourceTree = DEVELOPER_DIR; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -221,8 +221,8 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				4B83596C0F43E3320082C305 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m */,
-				4B83596D0F43E3320082C305 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.h */,
+				4B85D0D20F44111F00D72A51 /* main.m */,
+				4B85D0D30F44111F00D72A51 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -385,7 +385,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* ___PROJECTNAMEASIDENTIFIER___ */ = {
+		1D6058900D05DD3D006BFB54 /* ___PROJECTNAME___ */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "___PROJECTNAME___" */;
 			buildPhases = (
@@ -397,8 +397,8 @@
 			);
 			dependencies = (
 			);
-			name = ___PROJECTNAME___;
-			productName = ___PROJECTNAME___;
+			name = "___PROJECTNAME___";
+			productName = "___PROJECTNAME___";
 			productReference = 1D6058910D05DD3D006BFB54 /* ___PROJECTNAME___.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -440,7 +440,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D3623260D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m in Sources */,
-				4B83596E0F43E3320082C305 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.m in Sources */,
 				4B8359D00F43E36B0082C305 /* Action.m in Sources */,
 				4B8359D10F43E36B0082C305 /* AtlasNode.m in Sources */,
 				4B8359D20F43E36B0082C305 /* Camera.m in Sources */,
@@ -484,6 +483,7 @@
 				4B8359FC0F43E36B0082C305 /* cpSpace.c in Sources */,
 				4B8359FD0F43E36B0082C305 /* cpSpaceHash.c in Sources */,
 				4B8359FE0F43E36B0082C305 /* cpVect.c in Sources */,
+				4B85D0D40F44111F00D72A51 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,9 +498,9 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ___PROJECTNAMEASIDENTIFIER____Prefix.pch;
+				GCC_PREFIX_HEADER = "___PROJECTNAMEASIDENTIFIER____Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = ___PROJECTNAME___;
+				PRODUCT_NAME = "___PROJECTNAME___";
 			};
 			name = Debug;
 		};
@@ -510,9 +510,9 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ___PROJECTNAMEASIDENTIFIER____Prefix.pch;
+				GCC_PREFIX_HEADER = "___PROJECTNAMEASIDENTIFIER____Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = ___PROJECTNAME___;
+				PRODUCT_NAME = "___PROJECTNAME___";
 			};
 			name = Release;
 		};
