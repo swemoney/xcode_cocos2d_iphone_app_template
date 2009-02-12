@@ -1,9 +1,0 @@
-//
-// Prefix header for all source files of the '___PROJECTNAMEASIDENTIFIER___' target in the '___PROJECTNAME___' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-    #import <UIKit/UIKit.h>
-    #import "cocos2d.h"
-#endif
